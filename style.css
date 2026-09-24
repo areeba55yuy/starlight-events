@@ -106,7 +106,7 @@ body {
 
 .navbar-brand small {
     display: block;
-    color: #888;
+    color:  #d4af37;
     font-size: 9px;
     letter-spacing: 2px;
 }
@@ -245,3 +245,634 @@ body {
     background-position: center;
 }
 
+/* services page  */
+
+/* =========================
+   GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0b0b;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #d4af37 !important;
+}
+
+.navbar-brand:hover {
+    color: #ffc107 !important;
+}
+
+
+/* =========================
+   SERVICES HERO
+========================= */
+
+.services-hero {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url("slogo.png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+
+    transform: translateY(-50%);
+
+    z-index: 2;
+
+    color: white;
+
+    max-width: 650px;
+}
+
+.hero-small {
+    color: #d4af37;
+    font-size: 15px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero-content h1 {
+    font-size: 65px;
+    line-height: 1.05;
+    margin-bottom: 25px;
+}
+
+.hero-content h1 span {
+    color: #d4af37;
+}
+
+.hero-content p {
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #d4af37;
+}
+
+
+/* =========================
+   HERO BUTTON
+========================= */
+
+.book-btn {
+    background-color: #d4af37 !important;
+    color: #111 !important;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.book-btn:hover {
+    background-color: white !important;
+    color: #111 !important;
+}
+
+
+/* =========================
+   COMMON SECTIONS
+========================= */
+
+.service-section {
+    background-color: #0b0b0b;
+    padding: 90px 0;
+}
+
+.exhibition-section {
+    background-color: #111;
+    padding: 90px 0;
+}
+
+.printing-section {
+    background-color: #0b0b0b;
+    padding: 90px 0;
+}
+
+
+/* =========================
+   SECTION HEADINGS
+========================= */
+
+.section-label {
+    color: #d4af37;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.service-section h2,
+.exhibition-section h2,
+.printing-section h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.service-section h2 span,
+.exhibition-section h2 span,
+.printing-section h2 span {
+    color: #d4af37;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.description {
+    color: #d4af37;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   EVENT MANAGEMENT IMAGE
+========================= */
+
+.service-image {
+    width: 100%;
+    height: 450px;
+
+    object-fit: cover;
+
+    border-radius: 16px;
+
+    transition: 0.5s;
+}
+
+.service-image:hover {
+    transform: scale(1.03);
+}
+
+
+/* =========================
+   EXHIBITION IMAGE
+========================= */
+
+.exhibition-image-box {
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.exhibition-image {
+    width: 100%;
+    height: 450px;
+
+    object-fit: cover;
+
+    transition: 0.5s;
+}
+
+.exhibition-image:hover {
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   PRINTING IMAGE
+========================= */
+
+.printing-image-box {
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.printing-image {
+    width: 100%;
+    height: 450px;
+
+    object-fit: cover;
+
+    transition: 0.5s;
+}
+
+.printing-image:hover {
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   SERVICE LIST
+========================= */
+
+.service-list {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.service-list p {
+    color: #d4af37;
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+
+/* =========================
+   SERVICE BUTTON
+========================= */
+
+.service-btn {
+    background-color: #d4af37;
+    color: #111;
+
+    font-weight: bold;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 30px;
+
+    transition: 0.3s;
+}
+
+.service-btn:hover {
+    background-color: white;
+    color: #111;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   WHY SECTION
+========================= */
+
+.why-section {
+    background-color: #111;
+    padding: 90px 0;
+}
+
+.why-section h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* =========================
+   WHY CARDS
+========================= */
+
+.why-card {
+    background-color: #191919;
+
+    border: 1px solid #292929;
+
+    border-radius: 15px;
+
+    padding: 40px 25px;
+
+    transition: 0.4s;
+}
+
+.why-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #d4af37;
+
+    box-shadow:
+        0 10px 30px
+        rgba(212, 175, 55, 0.12);
+}
+
+.why-card h4 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.why-card p {
+    color: #d4af37;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   ICON
+========================= */
+
+.icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d4af37;
+
+    color: #111;
+
+    border-radius: 50%;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    margin: 0 auto 20px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    background-color: #050505;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+.footer h3 {
+    color: #d4af37;
+
+    font-size: 25px;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #d4af37;
+}
+
+.footer small {
+    color: #d4af37;
+}
+
+
+/* =========================
+   HOME PAGE SERVICES
+========================= */
+
+.home-services {
+    background-color: #111;
+    padding: 90px 0;
+}
+
+.service-label {
+    color: #d4af37;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.service-title span {
+    color: #d4af37;
+}
+
+.service-intro {
+    max-width: 700px;
+    margin: auto;
+
+    color: #d4af37;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   HOME SERVICE CARDS
+========================= */
+
+.home-service-card {
+    background-color: #191919;
+
+    border: 1px solid #292929;
+
+    border-radius: 15px;
+
+    padding: 40px 25px;
+
+    text-align: center;
+
+    transition: 0.4s;
+}
+
+.home-service-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #d4af37;
+
+    box-shadow:
+        0 10px 30px
+        rgba(212, 175, 55, 0.12);
+}
+
+.home-service-card h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.home-service-card p {
+    color: #d4af37;
+    line-height: 1.7;
+}
+
+.home-service-card a {
+    color: #d4af37;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.home-service-card a:hover {
+    color: white;
+}
+
+
+/* =========================
+   SERVICE ICON
+========================= */
+
+.service-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d4af37;
+
+    color: #111;
+
+    border-radius: 50%;
+
+    font-size: 24px;
+
+    margin: 0 auto 20px;
+}
+
+
+/* =========================
+   EXPLORE SERVICES BUTTON
+========================= */
+
+.explore-services-btn {
+    display: inline-block;
+
+    background-color: #d4af37;
+
+    color: #111;
+
+    font-weight: bold;
+
+    padding: 14px 32px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.explore-services-btn:hover {
+    background-color: white;
+
+    color: #111;
+
+    transform: translateY(-3px);
+}
+.service-text{
+    color: white;
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .services-hero {
+        height: 65vh;
+    }
+
+    .hero-content {
+        left: 6%;
+        right: 6%;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero-small {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .service-section,
+    .exhibition-section,
+    .printing-section,
+    .why-section,
+    .home-services {
+        padding: 60px 20px;
+    }
+
+    .service-section h2,
+    .exhibition-section h2,
+    .printing-section h2,
+    .why-section h2,
+    .service-title {
+        font-size: 35px;
+    }
+
+    .service-image,
+    .exhibition-image,
+    .printing-image {
+        height: 300px;
+    }
+
+    .home-service-card {
+        padding: 35px 25px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+    }
+
+    .service-section h2,
+    .exhibition-section h2,
+    .printing-section h2,
+    .service-title {
+        font-size: 30px;
+    }
+
+    .service-image,
+    .exhibition-image,
+    .printing-image {
+        height: 250px;
+    }
+
+}
